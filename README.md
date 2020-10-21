@@ -4,7 +4,7 @@
 
 # Guideline
 
-## Neue Infos
+## Neue Tutorials
 1. Erstellt einen neuen Ordner mit dem Namen der Reihe (zB Tensorflow)
     1. Ordner existiert schon?
         1. Achtet darauf, dass keine Infos doppelt drin sind
@@ -22,12 +22,17 @@
 ## Für existierende Reihen
 Bitte kennzeichnet die Infos, die ich schon in Videos habe mit einem Verweis auf das Youtube-Video via Link ganz oben in der Markdown-Datei.
 
-## Für Specials
+## Für Realtalks
 1. Erstellt einen Ordner mit dem Thema des Specials
 1. Erstellt ein Script (kein Fließtext, nur Stickpunkte)
 1. Alle Quellen in eine Datei namens sources.list (oder so)
 1. Alle Bilder oder Videos in diesen Ordner, die man einfügen könnte - mit Verweis im Script, wann das Bild passt
 1. Pull-Request
+
+## Für Challenges
+1. Erstellt einen Ordner im Ordner Challenges mit dem Namen eurer Challenge
+1. Erstellt ein Script mit der Aufgabe darin
+1. Erstellt die Lösung in einer separaten Datei (zb Source-Code)
 
 # Nächste Reihen, die ich angehe
 Achtung keine feste Reihenfolge, das kommt ein wenig drauf an, was ich brauche
