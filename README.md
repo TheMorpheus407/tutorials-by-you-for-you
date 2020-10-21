@@ -8,12 +8,12 @@
 1. Erstellt einen neuen Ordner mit dem Namen der Reihe (zB Tensorflow)
   1. Ordner existiert schon?
       1. Achtet darauf, dass keine Infos doppelt drin sind
-2. Fügt dort alles hinzu, was ihr wichtig findet
-  2. Erstellt eine neue Datei für jede Lektion
-  2. Nennt die Dateien so wie ihr das Video auf Youtube suchen würdet mit Zahl vorne dran
+1. Fügt dort alles hinzu, was ihr wichtig findet
+  1. Erstellt eine neue Datei für jede Lektion
+  1. Nennt die Dateien so wie ihr das Video auf Youtube suchen würdet mit Zahl vorne dran
      * Beispiel: '01. Einleitung' (im Ordner Tensorflow)
-  2. Dazugehöriger Code bitte exakt so nennen
-3. Erstellt einen Pull-Request, den ich dann rein mergen kann
+  1. Dazugehöriger Code bitte exakt so nennen
+1. Erstellt einen Pull-Request, den ich dann rein mergen kann
 
 ## Falsche Infos
 1. Identifiziert diese Infos
