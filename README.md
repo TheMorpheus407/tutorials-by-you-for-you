@@ -41,3 +41,13 @@ Achtung keine feste Reihenfolge, das kommt ein wenig drauf an, was ich brauche
 * Modern C++ - Templates Kapitel (der Rest ist schon fertig)
 * Tensorflow
 * Ergänzungen für bisherige Serien
+
+# Reihen, die die Supporter auf Patreon und Youtube Members bereits haben
+* Docker
+* LaTeX
+* Modern C++ Teil 1
+* Binary Exploitation und Secure Coding in C
+* DevOps Einführung
+* Reverse Engineering von C Code mit Ghidra
+* kurze Einführung ins Data Mining
+* plus die aktuellen bis zum Ende
