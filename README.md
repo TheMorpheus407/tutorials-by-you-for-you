@@ -21,3 +21,11 @@
 
 # Für existierende Reihen
 Bitte kennzeichnet die Infos, die ich schon in Videos habe mit einem Verweis auf das Youtube-Video via Link ganz oben in der Markdown-Datei.
+
+# Nächste Reihen, die ich angehe
+Achtung keine feste Reihenfolge, das kommt ein wenig drauf an, was ich brauche
+* Statistik mit Python - Pandas, Numpy, Scipy
+* Datenvisualisierung mit Python - Plotly, Matplotlib, Seaborn, Pandas
+* Modern C++ - Templates Kapitel (der Rest ist schon fertig)
+* Tensorflow
+* Ergänzungen für bisherige Serien
