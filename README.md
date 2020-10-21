@@ -19,8 +19,15 @@
 1. Identifiziert diese Infos
 2. Erstellt einen Pull-Request, wo sie weg kommen
 
-# Für existierende Reihen
+## Für existierende Reihen
 Bitte kennzeichnet die Infos, die ich schon in Videos habe mit einem Verweis auf das Youtube-Video via Link ganz oben in der Markdown-Datei.
+
+## Für Specials
+1. Erstellt einen Ordner mit dem Thema des Specials
+1. Erstellt ein Script (kein Fließtext, nur Stickpunkte)
+1. Alle Quellen in eine Datei namens sources.list (oder so)
+1. Alle Bilder oder Videos in diesen Ordner, die man einfügen könnte - mit Verweis im Script, wann das Bild passt
+1. Pull-Request
 
 # Nächste Reihen, die ich angehe
 Achtung keine feste Reihenfolge, das kommt ein wenig drauf an, was ich brauche
