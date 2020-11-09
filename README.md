@@ -13,7 +13,7 @@ auf meinem Youtube-Kanal hinzufügen.
 </p>
 
 <p align="center">
-  <a href="https://www.youtube.com/themorpheus407" rel="nofollow">The Morpheus Turotials (youtube.com/themorpheus407)</a>
+  <a href="https://www.youtube.com/themorpheus407" rel="nofollow">The Morpheus Tutorials</a>
 </p>
 
 # Guidelines
