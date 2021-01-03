@@ -1,5 +1,6 @@
 import random
 
+
 def heapify(heap: list, n: int, i: int) -> list:
     max_index = i
     left = 2 * i + 1
@@ -24,10 +25,10 @@ def heap_sort(unsorted_list: list) -> list:
 
     n = len(unsorted_list)
 
-    for i in range(n//2 - 1, -1, -1):
+    for i in reversed(range(n//2)):
         unsorted_list = heapify(unsorted_list, n, i)
 
-    for i in range(n-1, 0, -1):
+    for i in reversed(range(1, n)):
         unsorted_list[i], unsorted_list[0] = unsorted_list[0], unsorted_list[i]
         unsorted_list = heapify(unsorted_list, i, 0)
     
