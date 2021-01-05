@@ -2,9 +2,9 @@
 
 Radixsort benötigt zwischen allen Zeichen des Alphabets eine Total- bzw. Quasiordnung.
 
-Laufzeit: O(n * l)  
-Zusätzlicher Speicherbedarf: O(n)  
-Stabil: ja
+* Laufzeit: O(n * l)  
+* Zusätzlicher Speicherbedarf: O(n)  
+* Stabil: ja
 
 > Hinweis: l ist die Länge der Stellen des größten Elements zur entsprechenden Basis 
 

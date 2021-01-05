@@ -31,7 +31,7 @@ def heap_sort(unsorted_list: list) -> list:
     for i in reversed(range(1, n)):
         unsorted_list[i], unsorted_list[0] = unsorted_list[0], unsorted_list[i]
         unsorted_list = heapify(unsorted_list, i, 0)
-    
+
     return unsorted_list
 
 
