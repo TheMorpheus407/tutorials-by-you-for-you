@@ -2,9 +2,9 @@
 
 Radixsort benötigt zwischen allen Zeichen des Alphabets eine Total- bzw. Quasiordnung.
 
-Laufzeit: O(n * l)  
-Zusätzlicher Speicherbedarf: O(n)  
-Stabil: ja
+* Laufzeit: O(n * l)  
+* Zusätzlicher Speicherbedarf: O(n)  
+* Stabil: ja
 
 > Hinweis: l ist die Länge der Stellen des größten Elements zur entsprechenden Basis 
 
@@ -51,8 +51,8 @@ Runde 3:
 ```
 
 Die implementierung ist in den Folgenden Dokumenten zu finden:
-- [Radix LSD Sort (Binär)](./radix_lsd_sort_binary.py)
-- [Radix LSD Sort (Base10)](./radix_lsd_sort_base.py)
+- [Radix LSD Sort (Binär)](./code/radix_lsd_sort_binary.py)
+- [Radix LSD Sort (Base10)](./code/radix_lsd_sort_base.py)
 
 ### Mit Countingsort
 
@@ -91,4 +91,4 @@ Runde 3:
 ```
 
 Die implementierung ist in den Folgenden Dokument zu finden:
-- [Radix LSD Sort (mittels Countingsort)](./radix_lsd_sort_count.py)
+- [Radix LSD Sort (mittels Countingsort)](./code/radix_lsd_sort_count.py)

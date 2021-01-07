@@ -1,7 +1,7 @@
 # Offene Themen
 
 - [x] [Radix LSD Sort](./RadixLSDSort.md)
-- [ ] [Heap]()
+- [x] [Heapsort](./HeapSort.md)
 - [ ] [Natural Mergesort]()
 - [ ] [Bucketsort]()
 - [ ] [Countingsort]()
