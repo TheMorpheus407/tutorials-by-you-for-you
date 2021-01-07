@@ -1,4 +1,4 @@
-# Offene Themen
+# Offene Themen (ohne Reihenfolge)
 
 - [x] [Radix LSD Sort](./RadixLSDSort.md)
 - [x] [Heapsort](./HeapSort.md)
@@ -6,6 +6,22 @@
 - [ ] [Bucketsort]()
 - [ ] [Countingsort]()
 - [ ] [A*-Algorithmus]()
+- [ ] [Kompressionsalgorithmen]()
+- [ ] [Fundamentalsatz]()
+- [ ] [Amortization]()
+- [ ] [Master-Theorem]()
+- [ ] [Parallele Algorithmen]()
+- [ ] [Branch and Bound]()
+- [ ] [Best first search]()
+- [ ] [Mini Max]()
+- [ ] [Union find]()
+- [ ] [Floyds Hare]()
+- [ ] [Flüsse]()
+- [ ] [Fibonacci Heap]()
+- [ ] [Min Max Heap]()
+- [ ] [Splay Trees]()
+- [ ] [Red Black Trees]()
+- [ ] [B-Trees]()
 
 
 # Videos der Reihe
@@ -61,3 +77,8 @@ Im folgenden Abschnitt sind alle Videos der [Algorithmen und Datenstrukturen](ht
 - Algorithmen und Datenstrukturen #46 - Minimum Spanning Trees - Der Kruskal Algorithmus
 - Algorithmen und Datenstrukturen #47 - Der Kruskal Algorithmus in Python
 - Algorithmen und Datenstrukturen - vorläufiger Abschluss
+- Radix LSD Sort - Erklärung | Algorithmen Tutorial
+- Radix Sort in Python | Algorithmen Tutorial
+- Binary Radix Sort in Python | Algorithmen Tutorial
+- Counting Radix Sort in Python | Algorithmen Tutorial
+
