@@ -88,7 +88,7 @@ IList<User> userList = new List<User> {
     new User() { UserID = 1, UserName = "Paul", Age=22 },
     new User() { UserID = 2, UserName = "Moritz", Age=26 },
     new User() { UserID = 3, UserName = "Florian", Age=23 },
-    new User() { UserID = 4, UserName = "Nico", Age=21 },
+    new User() { UserID = 4, UserName = "Nico", Age=26 },
     new User() { UserID = 5, UserName = "Lisa", Age=19 },
     new User() { UserID = 6, UserName = "Davis", Age=23 }
 }
@@ -96,9 +96,65 @@ IList<User> userList = new List<User> {
 ## OrderBy
 ### Query Syntax
 ```cs
-//Sortiert die Werte nach dem Namen
+[Datentyp] [Variable] = from [Daten] in [Datenquelle]
+                        orderby [Bedingung 1]
+                        select [Daten];
+```
+```cs
+//Sortiert die Werte nach dem Usernamen
 var query = from ex in userList
             orderby ex.UserName
             select ex;
 ```
 ### Method Syntax
+```cs
+[Datentyp] [Variable] = [Datenquelle].OrderBy([Datenwert]);
+```
+```cs
+//Sortiert die Werte nach dem Usernamen
+var method = userList.OrderBy(ex => ex.Username);
+```
+
+## OrderByDescending
+### Query Syntax
+```cs
+[Datentyp] [Variable] = from [Daten] in [Datenquelle]
+                        orderby [Datenwert] descending
+                        select [Daten];
+```
+```cs
+//Sortiert die Werte nach dem Usernamen absteigend
+var query = from ex in userList
+            orderby ex.UserName descending
+            select ex;
+```
+### Method Syntax
+```cs
+[Datentyp] [Variable] = [Datenquelle].OrderByDescending([Datenwert]);
+```
+```cs
+//Sortiert die Werte nach dem Usernamen absteigend
+var method = userList.OrderByDescending(ex => ex.Username);
+```
+## ThenBy
+### Query Syntax
+```cs
+[Datentyp] [Variable] = from [Daten] in [Datenquelle]
+                        orderby [Datenwert], [Datenwert]
+                        select [Daten];
+```
+```cs
+//Sortiert die Werte nach dem Usernamen und nach dem Alter
+var query = from ex in userList
+            orderby ex.UserName, ex.Age
+            select ex;
+```
+### Method Syntax
+```cs
+[Datentyp] [Variable] = [Datenquelle].OrderBy([Datenwert]).ThenBy([Datenwert]);
+```
+```cs
+//Sortiert die Werte nach dem Usernamen und nach dem Alter
+var method = userList.OrderBy(ex => ex.Username).ThenBy(ex => ex.Age);
+```
+## Gruppieren
