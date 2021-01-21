@@ -1,10 +1,10 @@
 # Heap Sort
 
-* Laufzeit: O(n * log n) 
-* Zusätzlicher Speicherbedarf: In-Place
-* Stabil: ja
+- Laufzeit: O(n * log n) 
+- Zusätzlicher Speicherbedarf: In-Place
+- Stabil: ja
 
-* Verwendet einen Binären Heap
+- Verwendet einen Binären Heap
 
 ## implementation
 
